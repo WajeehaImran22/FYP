@@ -1,0 +1,117 @@
+# ==========================================
+# 00. ENVIRONMENT SECRETS (CRITICAL)
+# ==========================================
+# Never commit your private keys or Supabase/Gemini credentials
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env.*
+.envrc
+
+# ==========================================
+# 01. BACKEND (FastAPI / Python)
+# ==========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Coverage
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# ==========================================
+# 02. FRONTEND & MOBILE (Next.js / Expo / Node)
+# ==========================================
+node_modules/
+/dist
+/build
+.npm
+.yarn-integrity
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js specific
+.next/
+out/
+.pnp
+.pnp.js
+
+# Expo / React Native specific
+.expo/
+*.jks
+*.p12
+*.key
+*.mobileprovision
+*.orig.jks
+
+# IMPORTANT: Ignore native folders for Expo Managed Workflow
+# These are generated during 'eas build' and should not be tracked
+android/
+ios/
+
+# EAS Build artifacts
+eas-build-pre-installed-packages
+.eas/
+
+# ==========================================
+# 03. SYSTEM & IDE FILES
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# IDEs (VS Code / JetBrains)
+.vscode/
+.idea/
+*.swp
+*.swo
+.project
+.settings/
