@@ -1,3 +1,4 @@
+#vid upload routes
 from fastapi import APIRouter, Depends, UploadFile, File
 from supabase import Client
 from core.dependencies import get_current_user_client
