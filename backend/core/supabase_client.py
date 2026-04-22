@@ -1,3 +1,4 @@
+#supabase_client 
 from supabase import create_client, Client
 from core.config import settings
 
