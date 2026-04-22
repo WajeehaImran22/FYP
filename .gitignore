@@ -1,6 +1,6 @@
-# ==========================================
+# =========================================
 # 00. ENVIRONMENT SECRETS (CRITICAL)
-# ==========================================
+# =========================================
 # Never commit your private keys or Supabase/Gemini credentials
 .env
 .env.local
