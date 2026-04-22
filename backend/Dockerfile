@@ -6,7 +6,7 @@ RUN useradd -m -u 1000 user
 USER user
 ENV PATH="/home/user/.local/bin:${PATH}"
 
-# Set the working directory
+# Set the working directoryY
 WORKDIR /app
 
 # Copy and install dependencies first (for better caching)
