@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Digital Billboard",
-    "slug": "digital-billboard",
+    "slug": "digital billboard",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
