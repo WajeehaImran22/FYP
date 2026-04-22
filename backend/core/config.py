@@ -1,3 +1,4 @@
+#configpy
 import os
 import tempfile
 import logging
