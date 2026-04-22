@@ -1,3 +1,4 @@
+#auth service
 import logging
 from fastapi import HTTPException, status
 from core.supabase_client import supabase
