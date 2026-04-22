@@ -1,3 +1,4 @@
+#dependencies
 from fastapi import Request, HTTPException, status
 from supabase import create_client, Client, ClientOptions
 from core.config import settings
