@@ -1,4 +1,4 @@
-\\modal
+//modal
   import { StatusBar } from 'expo-status-bar';
 import { Platform, StyleSheet } from 'react-native';
 
