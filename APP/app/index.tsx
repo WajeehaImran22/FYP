@@ -1,4 +1,5 @@
-import React from 'react';
+\\index
+  import React from 'react';
 import { 
   StyleSheet, 
   View, 
