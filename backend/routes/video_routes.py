@@ -1,3 +1,4 @@
+#vid routes
 from fastapi import APIRouter, Depends, HTTPException
 from supabase import Client
 from core.dependencies import get_current_user_client
